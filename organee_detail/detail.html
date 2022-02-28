@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organee - Detail</title>
+
+    <link
+      rel="shortcut icon"
+      href="./images/logo-favi.png"
+      type="image/x-icon"
+    />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/fontawesome/css/all.min.css" />
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.green.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./css/detail.css"/>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container-fluid header-bg">
+        <div class="container">
+          <div class="row py-lg-4 py-2 header">
+            <div
+              id="icon-bars"
+              class="d-lg-none col-md-1 col-sm-1 col-1 pr-sm-5 pr-5"
+            >
+              <i class="fa fa-bars icon-bars"></i>
+            </div>
+            <div
+              class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-4 p-0 header-logo"
+            >
+              <a href="#">
+                <h2>Organee</h2>
+              </a>
+            </div>
+            <div class="col-xl-5 col-lg-5 d-lg-block d-none header-navbar pl-0">
+              <ul>
+                <li><a href="">Home</a></li>
+                <li id="product-box">
+                  Product <i class="fa fa-angle-down"></i>
+                </li>
+                <div id="product-box-down" class="product-box-down">
+                  <ul>
+                    <li><a href="">Vegetables</a></li>
+                    <li><a href="">Fruit</a></li>
+                    <li><a href="">Dried Food</a></li>
+                    <li><a href="">Drink</a></li>
+                  </ul>
+                </div>
+                <li><a href="">Blog</a></li>
+                <li id="about-box">
+                  About Us <i class="fa fa-angle-down"></i>
+                </li>
+                <div class="about-box-down" id="about-box-down">
+                  <ul>
+                    <li><a href="">History</a></li>
+                    <li><a href="">Advertisement</a></li>
+                    <li><a href="">Vision & Mission</a></li>
+                  </ul>
+                </div>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-xl-4 col-lg-4 d-lg-block d-none header-search">
+              <form action="">
+                <input type="text" placeholder="Search..." />
+                <button><i class="fas fa-search"></i></button>
+              </form>
+            </div>
+            <div
+              class="col-xl-1 col-lg-1 header-icon pl-3 col-md-1 col-sm-2 col-3 offset-xl-0 offset-lg-0 offset-md-6 offset-sm-4 offset-3"
+            >
+              <ul>
+                <li>
+                  <a href=""><i class="fas fa-user"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fas fa-shopping-cart"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Nav mobile -->
+
+      <div id="nav-mobile" class="nav-mobile container-fluid d-lg-none">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <div class="header-search">
+                <form action="">
+                  <input type="text" placeholder="Search..." />
+                  <button><i class="fas fa-search"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="header-navbar">
+                <ul>
+                  <li><a href="">Home</a></li>
+                  <li id="product">Product <i class="fa fa-angle-down"></i></li>
+                  <ul id="product-down">
+                    <li><a href="">Vegetables</a></li>
+                    <li><a href="">Fruit</a></li>
+                    <li><a href="">Dried Food</a></li>
+                    <li><a href="">Drink</a></li>
+                  </ul>
+                  <li><a href="">Blog</a></li>
+                  <li id="about">About Us <i class="fa fa-angle-down"></i></li>
+                  <ul id="about-down">
+                    <li><a href="">History</a></li>
+                    <li><a href="">Advertisement</a></li>
+                    <li><a href="">Vision & Mission</a></li>
+                  </ul>
+                  <li><a href="">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div id="nav-mobile-modal" class="container-fluid d-lg-none"></div> -->
+
+    </header>
+
+    <!-- Banner -->
+    <div class="banner">
+      <div class="container-fluid banner-bg">
+        <div class="container banner-content">
+          <div class="row">
+            <div class="col-12">
+              <nav aria-label="breadcrumb">
+                <h3>PRODUCT</h3>
+                <ol class="breadcrumb p-0">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">Product</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Peach</li>
+                </ol>
+              </nav>
+              
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Detail -->
+    <div class="detail my-5 
+    py-xl-22
+    py-lg-1
+    ">
+      <div class="container my-5">
+        <div class="row">
+          <!-- Image -->
+          <div class="
+          col-lg-4
+          col-md-5
+          col-12 
+          p-lg-0
+          pb-5
+
+          ">
+            <img src="./images/product-1.png" alt="" class="img-fluid detail-img">
+          </div>
+          <!-- Description -->
+          <div class="
+          col-lg-8
+          col-md-7
+          col-12 
+          pl-lg-5 ">
+            <div class="detail-content pl-xl-5">
+              <h2 class="p-0">Peach</h2>
+              <div class="range pt-1 pb-4">
+                <ul>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star-half-alt"></i></li>
+                </ul>
+              </div>
+              <div class="price-group">
+                <h3 class="p-0 mr-5">$31.50</h3>
+                <p class="p-0">$40.00</p>
+              </div>
+
+
+              <div class="d-flex mt-4">
+                <form action="" class="snipper-quatity">
+                  <input type="number" value="10" min="1" max="100" step="1"/>
+  
+                </form>
+                <button class="btn-pri ml-5">ADD TO CARD</button>
+
+              </div>
+
+              <div class="detail-desc mt-5">
+                <p>Sumptuous, filling, and temptingly healthy, our Biona Organic Granola with Wild Berries is just the thing to get you out of bed. The goodness of rolled wholegrain oats are combined with a variety of tangy organic berries, and baked into crispy clusters that are as nutritious.</p>
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Related Product -->
+    <!-- Product -->
+    <div class="product my-5">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col-12">
+              <h3 class="product-title">Related Products</h3>
+
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-12">
+            <div class="owl-carousel owl-theme" id="product-slides">
+              
+              <!-- Item 1 -->
+              <div class="item">
+                <a href="">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/product-1.png" alt="">
+                    <div class="card-body">
+                      <div class="range">
+                        <ul>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star-half-alt"></i></li>
+                        </ul>
+                      </div>
+                      <div class="card-info">
+                        <div class="card-info-left">
+                          <p>Fresh Kiwi</p>
+                        </div>
+                        <div class="card-info-right text-right">
+                          <p class="old-price">$56.22</p>
+                          <p >$45.00</p>
+                        </div>
+                      </div>
+                      <div class="btn-group mt-4 d-flex justify-content-between">
+                        <button class=" btn-pri">BUY NOW</button>
+                        <button class=" btn-sec">ADD TO CARD</button>
+                    </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+  
+              <!-- Item 2 -->
+              <div class="item">
+                
+                <a href="">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/product-2.png" alt="">
+                    <div class="card-body">
+                      <div class="range">
+                        <ul>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star-half-alt"></i></li>
+                        </ul>
+                      </div>
+                      <div class="card-info">
+                        <div class="card-info-left">
+                          <p>Peach</p>
+                        </div>
+                        <div class="card-info-right text-right">
+                          <p class="old-price">$40.00</p>
+                          <p >$31.00</p>
+                        </div>
+                      </div>
+                      <div class="btn-group mt-4 d-flex justify-content-between">
+                        <button class=" btn-pri">BUY NOW</button>
+                        <button class=" btn-sec">ADD TO CARD</button>
+                    </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="item">
+                <a href="">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/product-3.png" alt="">
+                    <div class="card-body">
+                      <div class="range">
+                        <ul>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star-half-alt"></i></li>
+                        </ul>
+                      </div>
+                      <div class="card-info">
+                        <div class="card-info-left">
+                          <p>Mushrooms</p>
+                        </div>
+                        <div class="card-info-right text-right">
+                          <p class="old-price">$32.24</p>
+                          <p >$25.00</p>
+                        </div>
+                      </div>
+                      <div class="btn-group mt-4 d-flex justify-content-between">
+                        <button class=" btn-pri">BUY NOW</button>
+                        <button class=" btn-sec">ADD TO CARD</button>
+                    </div>
+                    </div>
+                  </div>
+                </a>
+                
+            
+              </div>
+              <!-- Item 4 -->
+              <div class="item">
+               
+                  <a href="">
+                    <div class="card">
+                      <img class="card-img-top" src="./images/product-4.png" alt="">
+                      <div class="card-body">
+                        <div class="range">
+                          <ul>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star-half-alt"></i></li>
+                          </ul>
+                        </div>
+                        <div class="card-info">
+                          <div class="card-info-left">
+                            <p>Broccoli</p>
+                          </div>
+                          <div class="card-info-right text-right">
+                            <p class="old-price">$24.00</p>
+                            <p >$17.00</p>
+                          </div>
+                        </div>
+                        <div class="btn-group mt-4 d-flex justify-content-between">
+                          <button class=" btn-pri">BUY NOW</button>
+                          <button class=" btn-sec">ADD TO CARD</button>
+                      </div>
+                      </div>
+                    </div>
+                  </a>
+                
+              </div>
+
+              <!-- Item 5 -->
+              <div class="item">
+                <a href="">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/product-5.png" alt="">
+                    <div class="card-body">
+                      <div class="range">
+                        <ul>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star-half-alt"></i></li>
+                        </ul>
+                      </div>
+                      <div class="card-info">
+                        <div class="card-info-left">
+                          <p>Onion</p>
+                        </div>
+                        <div class="card-info-right text-right">
+                          <p class="old-price">$22.56</p>
+                          <p >$15.00</p>
+                        </div>
+                      </div>
+                      <div class="btn-group mt-4 d-flex justify-content-between">
+                        <button class=" btn-pri">BUY NOW</button>
+                        <button class=" btn-sec">ADD TO CARD</button>
+                    </div>
+                    </div>
+                  </div>
+                </a>
+                
+              </div>
+
+              <!-- Item 6 -->
+              <div class="item">
+                <a href="">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/product-6.png" alt="">
+                    <div class="card-body">
+                      <div class="range">
+                        <ul>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star-half-alt"></i></li>
+                        </ul>
+                      </div>
+                      <div class="card-info">
+                        <div class="card-info-left">
+                          <p>Pears</p>
+                        </div>
+                        <div class="card-info-right text-right">
+                          <p class="old-price">$46.66</p>
+                          <p >$33.00</p>
+                        </div>
+                      </div>
+                      <div class="btn-group mt-4 d-flex justify-content-between">
+                        <button class=" btn-pri">BUY NOW</button>
+                        <button class=" btn-sec">ADD TO CARD</button>
+                    </div>
+                    </div>
+                  </div>
+                </a>
+                
+              </div>
+
+              <!-- Item 7 -->
+              <div class="item">
+                <a href="">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/product-7.png" alt="">
+                    <div class="card-body">
+                      <div class="range">
+                        <ul>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star-half-alt"></i></li>
+                        </ul>
+                      </div>
+                      <div class="card-info">
+                        <div class="card-info-left">
+                          <p>Fresh Kiwi</p>
+                        </div>
+                        <div class="card-info-right text-right">
+                          <p class="old-price">$56.22</p>
+                          <p >$45.00</p>
+                        </div>
+                      </div>
+                      <div class="btn-group mt-4 d-flex justify-content-between">
+                        <button class=" btn-pri">BUY NOW</button>
+                        <button class=" btn-sec">ADD TO CARD</button>
+                    </div>
+                    </div>
+                  </div>
+                </a>
+                
+              </div>
+
+              <!-- Item 8 -->
+              <div class="item">
+                <a href="">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/product-8.png" alt="">
+                    <div class="card-body">
+                      <div class="range">
+                        <ul>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star-half-alt"></i></li>
+                        </ul>
+                      </div>
+                      <div class="card-info">
+                        <div class="card-info-left">
+                          <p>Mangosteen</p>
+                        </div>
+                        <div class="card-info-right text-right">
+                          <p class="old-price">$78.00</p>
+                          <p >$61.50</p>
+                        </div>
+                      </div>
+                      <div class="btn-group mt-4 d-flex justify-content-between">
+                        <button class=" btn-pri">BUY NOW</button>
+                        <button class=" btn-sec">ADD TO CARD</button>
+                    </div>
+                    </div>
+                  </div>
+                </a>
+                
+              </div>
+            </div>
+
+          </div>
+        </div>
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+
+    
+
+
+
+
+
+
+
+    
+
+    <!-- Footer -->
+    <footer class="container-fluid footer-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12 footer-logo">
+                    <a>
+                        <h2>Organee</h2>
+                    </a>
+
+                    <p class="py-3 px-md-0 px-5">
+                      We word with the passion of talking challenges and creating new ones in advertising sector.
+                    </p>
+
+                      <ul class="d-flex">
+                          <li class="pr-3"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                          <li class="pr-3"><a href=""><i class="fab fa-twitter"></i></a></li>
+                          <li class="pr-3"><a href=""><i class="fab fa-youtube"></i></a></li>
+                          <li class="pr-3"><a href=""><i class="fab fa-instagram"></i></a></li>
+                      </ul>
+
+
+
+
+
+                    
+                </div>
+
+                
+                <div class="col-lg-3 col-md-6 col-12 footer-link ">
+                  <h5 class="pt-2 pb-3">Contact Us</h5>
+                  <ul class="mt-3 footer-list">
+                    <li class="d-flex pb-2">
+                        <i class="fas fa-map-marker-alt pt-2 pr-3"></i>
+                        <p>10 Timbercrest , Alaska Badalas, Canada</p>
+                    </li>
+                    <li class="d-flex pb-2">
+                        <i class="fas fa-phone-alt pr-3"></i>
+                        <p>(+16) 7-723-17496</p>
+                    </li>
+                    <li class="d-flex pb-2">
+                        <i class="fas fa-envelope  pr-3"></i>
+                        <p>organee@gmail.com</p>
+                    </li>
+                </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-12 footer-link pl-xl-5 pl-mg-3">
+                  <h5 class="pt-2 pb-3">Our Links</h5>
+                  <ul>
+                      <li class="pb-3"><a href="">About Us</a></li>
+                      <li class="pb-3"><a href="">Blogs</a></li>
+                      <li class="pb-3"><a href="">Service</a></li>
+                      <li class="pb-3"><a href="">Contact</a></li>
+                  </ul>
+              </div>
+
+                
+                <div class="col-lg-4 col-md-6 col-12 footer-form">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5 class="pt-2 pb-3">Newsletter signup</h5>
+
+                            <div class="footer-input d-flex">
+                                <input type="text" placeholder="Your email...">
+                                <button><i class="fas fa-paper-plane"></i></button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row footer-link">
+                        
+                        <div class="col-12 footer-icon">
+                            <ul class="d-flex">
+                                <li class=""><i class="fab fa-cc-visa"></i></li>
+                                <li class="pl-3"><i class="fab fa-cc-paypal"></i></li>
+                                <li class="pl-3"><i class="fab fa-cc-mastercard"></i></li>
+                                <li class="pl-3"><i class="fab fa-cc-discover"></i></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!-- Jquery -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <!-- Bootstrap -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- Owl Carousel -->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- Snipper -->
+    <script src="./js/bootstrap-input-spinner.js"></script>
+    <script src="./js/custom-editors.js"></script>
+
+
+
+    <!-- Jquery Nav Mobile -->
+    <script>
+      $(document).ready(function () {
+        $("#nav-mobile").hide();
+        $("#icon-bars").click(function () {
+          $("#nav-mobile").slideToggle();
+        });
+
+  
+        $("#product-down").hide();
+        $("#product").click(function () {
+          $("#product-down").slideToggle();
+        });
+
+        $("#about-down").hide();
+        $("#about").click(function () {
+          $("#about-down").slideToggle();
+        });
+        
+        // Desktop
+        $("#product-box-down").hide();
+        $("#product-box").click(function () {
+          $("#product-box-down").slideToggle();
+        });
+        $("#about-box-down").hide();
+        $("#about-box").click(function () {
+          $("#about-box-down").slideToggle();
+        });
+
+        // Filter Mobile
+        $("#filter-mobile").hide();
+        $("#icon-filter").click(function () {
+          $("#filter-mobile").slideToggle();
+
+        });
+        
+        $("#button-test").click(function(){
+          $("#div-test").fadeOut();
+          
+        });
+        $("#btn-filter-mobile").click(function(){
+          $("#filter-mobile").fadeOut();
+          
+        });
+        
+        // Slide Banner
+        $('.carousel').carousel({
+          interval: 5000,
+        });
+      });
+    </script>
+
+    <!-- Owl Carousel -->
+    <script>
+      $(document).ready(function(){
+        $('#product-slides').owlCarousel({
+          loop:true,
+          margin:10,
+          nav:true,
+          responsive:{
+              0:{
+                  items:2
+              },
+              576:{
+                  items:2
+              },
+              768:{
+                  items:2
+              },
+              1024:{
+                items:3
+              },
+              1200:{
+                  items: 4
+              },
+          },
+        });
+      });
+    </script>
+
+    
+
+    
+    
+  <!-- Number Snippet -->
+  <script src="./src/bootstrap-input-spinner.js"></script>
+  <script>
+      $("input[type='number']").inputSpinner()
+  </script>
+
+    
+  </body>
+</html>
